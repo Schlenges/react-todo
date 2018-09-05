@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300|Ubuntu:700');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to left, #185a9d, #43cea2);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+}
+
+.TodoList {
+  text-align: center;
+  border: 1px solid #52D1FA;
+  background:#25262F;
+  width: 30vw;
+  min-height: 70vH;
+  height: auto;
+  box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.5);
+  padding-bottom: 60px;
+}
+
+.Header {
+  color: #52D1FA;
+  font-weight: 300;
+  margin: 70px auto 30px;
+}
+
+span{
+  font-family: 'Ubuntu';
+  font-weight: 700;
+}
+
+.Input{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 60%;
+  padding: 5px;
+  font-size: 1em;
+  box-shadow: 1px 3px 20px 0px rgba(0, 0, 0, 0.3);
+  outline: none;
+}
+
+input:focus{
+  border-color: #52D1FA;
+}
+
+button{
+  outline: none;
+}
+
+.Add {
+  color: #52D1FA;
+  font-size: 2em;
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+  cursor: pointer;
+  background: #272727;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px #399aba;
+  border-color: #52D1FA;
+}
+
+.Container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Item {
+  display: flex;
+  align-items: center;
+}
+
+.Todo{
+  background: #323444;
+  color: white;
+  width: 90%;
+  padding: 15px;
+  margin-right: 20px;
+}
+
+.Delete {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background: #272727;
+  border-radius: 10px;
+  border-color: #ff6961;
+  color: #ff6961;
+  font-size: 18px;
+}
