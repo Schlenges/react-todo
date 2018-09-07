@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300|Ubuntu:700');
 
-body {
+body{
   margin: 0;
   padding: 0;
   background: linear-gradient(to left, #185a9d, #43cea2);
@@ -11,7 +11,7 @@ body {
   font-family: 'Roboto';
 }
 
-.TodoList {
+.TodoList{
   text-align: center;
   border: 1px solid #52D1FA;
   background:#25262F;
@@ -22,7 +22,7 @@ body {
   padding-bottom: 60px;
 }
 
-.Header {
+.Header{
   color: #52D1FA;
   font-weight: 300;
   margin: 70px auto 30px;
@@ -39,7 +39,7 @@ span{
   margin-bottom: 20px;
 }
 
-input {
+input{
   width: 60%;
   padding: 5px;
   font-size: 1em;
@@ -55,7 +55,7 @@ button{
   outline: none;
 }
 
-.Add {
+.Add{
   color: #52D1FA;
   font-size: 2em;
   width: 40px;
@@ -68,12 +68,12 @@ button{
   border-color: #52D1FA;
 }
 
-.Container {
+.Container{
   width: 80%;
   margin: 0 auto;
 }
 
-.Item {
+.Item{
   display: flex;
   align-items: center;
 }
@@ -86,7 +86,7 @@ button{
   margin-right: 20px;
 }
 
-.Delete {
+.Delete{
   width: 35px;
   height: 35px;
   cursor: pointer;
